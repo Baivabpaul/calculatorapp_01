@@ -1,0 +1,25 @@
+
+step by step need to make a calculator :
+
+1. [input,setinput] - state management , usestate hook 
+2. To attach math operands to the previous value of input field , handleClick function (value) where : prev => prev + value 
+3. buttons for all operands and  handleclick for each specific , onClick={() => handleclick('operand')} and changes to be seen in the input field
+4. buttons for numbers and  setInputVal(previous => previous + 'specific number')
+5. main input field :    <input type="text" id="valuebox" value={inputval} readOnly />
+8. 
+9. 
+10. covertimg the string expression of the readonly input field into math calculation 
+11. eval () : method 1 , pros , cons
+12. const result = new Function(`return ${inputVal}`)();  - method 2 
+13. explain method 2 :
+        a. `return ${inputVal}` - returns the expression of the input field
+        b. new Function(`return ${inputVal}`) - return a newly dynamically created anonymous function with return ${inputVal}
+        c.  new Function(`return ${inputVal}`)() - calling the new returned anonymous function immediately (immediately invoking function expression(IIFE))
+        d. setResult(result) - storing the result in setresult state
+        e. wrapping inside try and catch block , do if invalid expression occurs : setInputVal("wrong expression")
+14. how to target the input field to show the result with the help of button 
+15. result field ( readOnly)
+16. i want when i click clear all button for inputVal the result will automatically get clearall 
+17. 
+18. working of new Function(`return ${inputVal}`)() under the hood : 
+        a. 
