@@ -1,0 +1,109 @@
+
+
+.operator{
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid green;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.operator:hover{
+    background-color: rgb(6, 168, 6);
+    color: white;
+}
+
+.clearbox{
+    text-align: center;
+    font-size: 24.7px;
+    border: 1px solid ;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.clearbox:hover{
+    background-color: rgb(20, 105, 218);
+    transition: 0.2s;
+    color: white;
+    /* border: none; */
+}
+
+#operator-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#sub{
+    padding: 0px 10px;
+}
+
+#add{
+    padding: 0px 7px;
+}
+
+#mul{
+    padding: 0px 10px;
+    font-size: xx-large;
+    border: 2px solid green;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+#mul:hover{
+    background-color: rgb(6, 168, 6);;
+    color: white;
+}
+
+#divide{
+    padding: 0px 12px;
+}
+
+.calcbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: max-content; */
+}
+
+#valuebox{
+    margin-bottom: 15px;
+    height:40px;
+    width: 200px;
+}
+
+.numbox button{
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.numbox button:hover{
+    background-color: rgb(26, 224, 26);
+    transition: 0.2s;
+}
+
+#resultbutton{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 65px;
+    border: 2.5px solid orange;  
+    border-radius: 10px;
+    background-color: white;
+}
+ #resultbutton:hover{
+
+    background-color:orange;
+    transition: 0.4s;
+    border: none; 
+ }
+
+#resultbox{
+    margin-bottom: 16px;
+    height: 30px;
+    width: 100px;
+}
